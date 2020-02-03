@@ -39,3 +39,28 @@ ${Education}
 ${softSkills}  
 ${language} 
 ${Interest}`
+
+
+
+
+console.log (myCV)
+const Home ='london';
+console.log (Home)
+
+const X = 5
+const minusx = -X
+console.log(minusx)
+
+//alert('Hello, world!'); 
+
+/* Hello this is my web
+
+alert('Ciao');
+*/
+//alert('Benvenuti')
+
+//alert(3 +1+ 2)
+
+
+    
+
