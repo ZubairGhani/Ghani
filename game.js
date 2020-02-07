@@ -1,4 +1,4 @@
-let Z;
+/* let Z;
 let numRnd 
 alert ("click to start");
 while( Z != "stop")
@@ -19,3 +19,4 @@ while( Z != "stop")
     
     
     }
+ */
