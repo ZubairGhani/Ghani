@@ -3,7 +3,7 @@
 // //let i = 0;
 // //while (i < 3) { // shows 0, then 1, then 2
 // //alert( i );
-// //i++;} 
+// //i++;}
 
 // //let i = 3;
 // //while  (i > 0){
@@ -11,21 +11,19 @@
 // //i--;
 // //}
 
-
 // //let str = "NANANANA";
 // //String repeated = str.repeat(16);
 // //repeated.equals("NANANANAN");
 
 // //let str = "NANANANAN"
-// //"NANANANNANAN".repeat() 
-// //"NANANANANANAN".repeat(10) // 
-// //"NANANANANANNA".repeat(16) // 
+// //"NANANANNANAN".repeat()
+// //"NANANANANANAN".repeat(10) //
+// //"NANANANANANNA".repeat(16) //
 
 // let str = 0;
 // let i = 0;
 // let test = "stringtest"
 // let other_variable
-
 
 // while (i < 16) {
 //   str = str + "Na"
@@ -35,12 +33,10 @@
 //   i++; // i = i + 1
 // }
 
-
 // console.log(str)
 // "Hello world!".repeat(16) // ""
 // "Hello world!".repeat(1) // "Hello world!"
 // "Hello world!".repeat(2) // "Hello world!Hello world!"
-
 
 /* 
  let num = prompt('Give me a number greater than 100');
@@ -49,7 +45,7 @@
  } else {
    console.log('Please try again.');
  }  */
- 
+
 // !(a && b) = !a || !b
 //  !(num > 100 && num) = num <=100 || !num
 /* 
@@ -63,10 +59,7 @@ while (!(num > 100 && num)) {
 }
 console.log('Yay, thanks! Just what I wanted!'); */
 
-
-
 // // for (i = 0; i < 16; i++)
-
 
 // write all even numbers from 1 to 100
 /* let i = 2;
@@ -89,17 +82,12 @@ while(Z<=100){
 }
 console.log ("good-job!"); */
 
-
-
 /*
 *******
 *******
 *******
 
 */
-
-
-
 
 /* let i= 5;
 let Hello = ("HELLO WORLD")
@@ -123,13 +111,11 @@ while (Zubair) {
   alert (Zubair);
 } */
 
-
 /* let I = 8;
 do {
   alert(I);
   I++;
 } while (I < 15); */
-
 
 /* for (let i = 10; i > 4; i--){
   alert (i);
@@ -144,16 +130,15 @@ for (let i =10; i > 4; i--){
 }
  */
 
- /* let i = 1
+/* let i = 1
  while (i < 70) {
    console.log (i)
  i++;
  if (i >40)
  break;
 } */
- 
 
- /* let i = 100
+/* let i = 100
  while (i < 200){ console.log (i)
    i--;
   if (i < -80) 
@@ -200,8 +185,6 @@ console.log (i)}
    n--;
  } */
 
-
-
 /* let z =90;
 while (z>=65){
  console.log( String.fromCharCode(z))
@@ -222,7 +205,7 @@ while (i<=10) {
   }
   i++;
 } */
- /* let i= 0 10 20 30 40 50 60  */
+/* let i= 0 10 20 30 40 50 60  */
 
 /* for (let i = 0; i <= 100; i = i + 10) {
   console.log(i);
@@ -233,7 +216,6 @@ while (i <=60){
   console.log(i);
   i+=10;
 } */
-
 
 /* let i = 60 50 40 30 20 10 0 */
 /* for (i=60; i>=0; i-=10){
@@ -270,14 +252,9 @@ while(i<=5){
 // p = 0                        20. ..... 40...
 // Yannick
 
-
-
-
-
 // i = 0 1 2 3 4 5 6 7 8 9 10.. 100
 // p = 0                        20. ..... 40...
 // Yannick
-
 
 /* 
 for (let i = 0; i <= 100; i++) {
@@ -302,7 +279,7 @@ for (let i = 0; i <= 100; i++) {
 
 // let i=0
 // while(i<=100){
-//   let isDivisible = i %20 === 0;  
+//   let isDivisible = i %20 === 0;
 //   if (isDivisible) {
 //     console.log(i);
 //   }
@@ -361,12 +338,11 @@ while (i>=20){
   i-=20;
 } */
 
-
 /*
-*****
-*****
-*****
-*/
+ *****
+ *****
+ *****
+ */
 
 // const ROWS = 3;
 // const COLUMNS = 5;
@@ -389,13 +365,9 @@ while (i>=20){
 //   let row ="";
 //   for (let j=0; j< COLUMNS; j++){
 //     row=row + "*";
-//   } 
+//   }
 //   console.log(row);
 // }
-
-
-
-
 
 // console.log (card, points)
 
@@ -406,8 +378,6 @@ while (i>=20){
 //       let who = "world";
 //       console.log(`hello ${who}!`)
 //     }
-   
-    
 
 // let a = 2 +;
 // function alert(params) {
@@ -430,7 +400,7 @@ while (i>=20){
 // }
 
 // let card= "J"
-// let points 
+// let points
 // switch(card){
 //   case 'K':
 //     points = 13
@@ -446,94 +416,105 @@ while (i>=20){
 //       break
 
 //       default:
-         
-// }  
-
-// switch (browser) {                                         
-//   case 'Edge':
-//     alert( "You've got the Edge!" );
-//     break;
-
-//   case 'Chrome':
-//   case 'Firefox':
-//   case 'Safari':
-//   case 'Opera':
-//     alert( 'Okay we support these browsers too' );
-//     break;
-
-//   default:
-//     alert( 'We hope that this page looks ok!' );
-// }
-// let browser
-// if(browser == 'Edge') {
-//   alert("You've got the Edge!");
-// } else if (browser == 'Chrome'
-//  || browser == 'Firefox'
-//  || browser == 'Safari'
-//  || browser == 'Opera') {
-//   alert( 'Okay we support these browsers too' );
-// } else {
-//   alert( 'We hope that this page looks ok!' );
-// }
-
-// let a = +prompt('a', '');
-
-// if (a == 0) {
-//   alert( 0 );
-// }
-// if (a == 1) {
-//   alert( 1 );
-// }
-
-// if (a == 2 || a == 3) {
-//   alert( '2,3' );
-// }
-
-// let userName = prompt("give me your money")
-// function showMessage(){
-//     let message = 'Hi, '+userName;
-//     alert(message);
-// }
-
-// showMessage();
-
-
-// function buildRow(columns){
-// let row ='';
-// for (let i=0;i< columns;i++){
-//   row*= '*';
-// }
-// return row;
 
 // }
-// function buildButton(row, columns){
-//   let button='';
-//   for (let i=0;i<row;i++){
-//     button+=buildRow(columns) +'\n';
-//   }
-//   return button;
-// }
 
-let amount="5"
-
-switch(amount){ 
-  case "Dull":
-    damage=1
+switch (browser) {
+  case 'Edge':
+    alert("You've got the Edge!")
     break
-  case "Cool":
-    damage= 5
+
+  case 'Chrome':
+  case 'Firefox':
+  case 'Safari':
+  case 'Opera':
+    alert('Okay we support these browsers too')
     break
-  case "Bravo":
-    damage= 10
-    break
-  case "Awesome":
-    damage= 15
-    break
-  case "Stylish":
-    damage= 20
-    break  
+
   default:
-    alert( "not really");
-
+    alert('We hope that this page looks ok!')
+}
+let browser
+if (browser == 'Edge') {
+  alert("You've got the Edge!")
+} else if (
+  browser == 'Chrome' ||
+  browser == 'Firefox' ||
+  browser == 'Safari' ||
+  browser == 'Opera'
+) {
+  alert('Okay we support these browsers too')
+} else {
+  alert('We hope that this page looks ok!')
 }
 
+let a = +prompt('a', '')
+
+if (a == 0) {
+  alert(0)
+}
+if (a == 1) {
+  alert(1)
+}
+
+if (a == 2 || a == 3) {
+  alert('2,3')
+}
+
+let userName = prompt('give me your money')
+function showMessage() {
+  let message = 'Hi, ' + userName
+  alert(message)
+}
+
+showMessage()
+
+function buildRow(columns) {
+  let row = ''
+  for (let i = 0; i < columns; i++) {
+    row *= '*'
+  }
+  return row
+}
+function buildButton(row, columns) {
+  let button = ''
+  for (let i = 0; i < row; i++) {
+    button += buildRow(columns) + '\n'
+  }
+  return button
+}
+
+let amount = '5'
+
+switch (amount) {
+  case 'Dull':
+    damage = 1
+    break
+  case 'Cool':
+    damage = 5
+    break
+  case 'Bravo':
+    damage = 10
+    break
+  case 'Awesome':
+    damage = 15
+    break
+  case 'Stylish':
+    damage = 20
+    break
+  default:
+    alert('not really')
+}
+function greetings(from, text) {
+  alert(from + ':' + text)
+}
+greetings('ghani', 'lunch break')
+greetings('zubair', 'lunch is done')
+
+function greetings(from, text = 'no text given') {
+  from = '*' + from + '*'
+  alert(from + ' : ' + text)
+}
+let from = 'ghani'
+greetings(from, 'hello')
+greetings(from)
