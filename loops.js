@@ -419,102 +419,102 @@ while (i>=20){
 
 // }
 
-switch (browser) {
-  case 'Edge':
-    alert("You've got the Edge!")
-    break
+// switch (browser) {
+//   case 'Edge':
+//     alert("You've got the Edge!")
+//     break
 
-  case 'Chrome':
-  case 'Firefox':
-  case 'Safari':
-  case 'Opera':
-    alert('Okay we support these browsers too')
-    break
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert('Okay we support these browsers too')
+//     break
 
-  default:
-    alert('We hope that this page looks ok!')
-}
-let browser
-if (browser == 'Edge') {
-  alert("You've got the Edge!")
-} else if (
-  browser == 'Chrome' ||
-  browser == 'Firefox' ||
-  browser == 'Safari' ||
-  browser == 'Opera'
-) {
-  alert('Okay we support these browsers too')
-} else {
-  alert('We hope that this page looks ok!')
-}
+//   default:
+//     alert('We hope that this page looks ok!')
+// }
+// let browser
+// if (browser == 'Edge') {
+//   alert("You've got the Edge!")
+// } else if (
+//   browser == 'Chrome' ||
+//   browser == 'Firefox' ||
+//   browser == 'Safari' ||
+//   browser == 'Opera'
+// ) {
+//   alert('Okay we support these browsers too')
+// } else {
+//   alert('We hope that this page looks ok!')
+// }
 
-let a = +prompt('a', '')
+// let a = +prompt('a', '')
 
-if (a == 0) {
-  alert(0)
-}
-if (a == 1) {
-  alert(1)
-}
+// if (a == 0) {
+//   alert(0)
+// }
+// if (a == 1) {
+//   alert(1)
+// }
 
-if (a == 2 || a == 3) {
-  alert('2,3')
-}
+// if (a == 2 || a == 3) {
+//   alert('2,3')
+// }
 
-let userName = prompt('give me your money')
-function showMessage() {
-  let message = 'Hi, ' + userName
-  alert(message)
-}
+// let userName = prompt('give me your money')
+// function showMessage() {
+//   let message = 'Hi, ' + userName
+//   alert(message)
+// }
 
-showMessage()
+// showMessage()
 
-function buildRow(columns) {
-  let row = ''
-  for (let i = 0; i < columns; i++) {
-    row *= '*'
-  }
-  return row
-}
-function buildButton(row, columns) {
-  let button = ''
-  for (let i = 0; i < row; i++) {
-    button += buildRow(columns) + '\n'
-  }
-  return button
-}
+// function buildRow(columns) {
+//   let row = ''
+//   for (let i = 0; i < columns; i++) {
+//     row *= '*'
+//   }
+//   return row
+// }
+// function buildButton(row, columns) {
+//   let button = ''
+//   for (let i = 0; i < row; i++) {
+//     button += buildRow(columns) + '\n'
+//   }
+//   return button
+// }
 
-let amount = '5'
+// let amount = '5'
+// let damage
+// switch (amount) {
+//   case 'Dull':
+//     damage = 1
+//     break
+//   case 'Cool':
+//     damage = 5
+//     break
+//   case 'Bravo':
+//     damage = 10
+//     break
+//   case 'Awesome':
+//     damage = 15
+//     break
+//   case 'Stylish':
+//     damage = 20
+//     break
+//   default:
+//     alert('not really')
+}
+// function greetings(from, text) {
+//   alert(from + ':' + text)
+// }
+// greetings('ghani', 'lunch break')
+// greetings('zubair', 'lunch is done')
 
-switch (amount) {
-  case 'Dull':
-    damage = 1
-    break
-  case 'Cool':
-    damage = 5
-    break
-  case 'Bravo':
-    damage = 10
-    break
-  case 'Awesome':
-    damage = 15
-    break
-  case 'Stylish':
-    damage = 20
-    break
-  default:
-    alert('not really')
-}
-function greetings(from, text) {
-  alert(from + ':' + text)
-}
-greetings('ghani', 'lunch break')
-greetings('zubair', 'lunch is done')
-
-function greetings(from, text = 'no text given') {
-  from = '*' + from + '*'
-  alert(from + ' : ' + text)
-}
-let from = 'ghani'
-greetings(from, 'hello')
-greetings(from)
+// function greetings(from, text = 'no text given') {
+//   from = '*' + from + '*'
+//   alert(from + ' : ' + text)
+// }
+// let from = 'ghani'
+// greetings(from, 'hello')
+// greetings(from)
